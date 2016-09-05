@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "LeftViewController.h"
+#import "RightViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +17,21 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    
+    UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+    UINavigationController *leftNavController = [splitViewController.viewControllers objectAtIndex:0];
+    LeftViewController *leftViewController = (LeftViewController *)[leftNavController topViewController];
+    RightViewController *rightViewController = [splitViewController.viewControllers objectAtIndex:1];
+    
+    Monster *firstMonster = [[leftViewController monsters] objectAtIndex:0];
+    [rightViewController setMonster:firstMonster];
+    
+    leftViewController.delegate = rightViewController;
+    
+    splitViewController.delegate = rightViewController;
+    
     return YES;
 }
 

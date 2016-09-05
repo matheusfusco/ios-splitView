@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeaponInputViewController">
+            <connections>
+                <outlet property="blowgunButton" destination="Str-Qq-DL9" id="bVq-1G-fMj"/>
+                <outlet property="fireButton" destination="JlA-Ej-NQl" id="7Ui-av-7bN"/>
+                <outlet property="ninjaStarButton" destination="HYq-Na-CQt" id="OU0-uR-dM8"/>
+                <outlet property="smokeButton" destination="3rV-Ej-Kn0" id="oTE-pr-Yef"/>
+                <outlet property="swordButton" destination="GVa-J3-RDV" id="u9E-yC-0n9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="110"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Str-Qq-DL9">
+                    <rect key="frame" x="8" y="20" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="Yuu-ZY-DRl"/>
+                        <constraint firstAttribute="width" constant="70" id="wSY-qg-LfU"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="blowgun.png"/>
+                    <connections>
+                        <action selector="weaponButtonTapped:" destination="-1" eventType="touchUpInside" id="zQ9-TQ-63F"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JlA-Ej-NQl">
+                    <rect key="frame" x="86" y="20" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="AEE-lx-BoQ"/>
+                        <constraint firstAttribute="width" constant="70" id="u9j-nn-rJi"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="fire.png"/>
+                    <connections>
+                        <action selector="weaponButtonTapped:" destination="-1" eventType="touchUpInside" id="OWB-hG-c1l"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYq-Na-CQt">
+                    <rect key="frame" x="164" y="20" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="X7T-Nk-XkT"/>
+                        <constraint firstAttribute="height" constant="70" id="uj2-uA-c4W"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="ninjastar.png"/>
+                    <connections>
+                        <action selector="weaponButtonTapped:" destination="-1" eventType="touchUpInside" id="H2b-xv-iI7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rV-Ej-Kn0">
+                    <rect key="frame" x="242" y="20" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="L5d-nS-DVW"/>
+                        <constraint firstAttribute="height" constant="70" id="eYt-T0-Yok"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="smoke.png"/>
+                    <connections>
+                        <action selector="weaponButtonTapped:" destination="-1" eventType="touchUpInside" id="y4v-iF-o1J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVa-J3-RDV">
+                    <rect key="frame" x="320" y="20" width="70" height="70"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="BOg-at-tw8"/>
+                        <constraint firstAttribute="height" constant="70" id="yzl-fx-Ff8"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="sword.png"/>
+                    <connections>
+                        <action selector="weaponButtonTapped:" destination="-1" eventType="touchUpInside" id="DhK-6G-jrW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5X8-0J-bV9">
+                    <rect key="frame" x="700" y="37" width="60" height="35"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="7b1-jM-uGP"/>
+                        <constraint firstAttribute="width" constant="60" id="SWL-Pa-Mc2"/>
+                    </constraints>
+                    <state key="normal" title="Close"/>
+                    <connections>
+                        <action selector="closeTapped" destination="-1" eventType="touchUpInside" id="tSw-wB-clO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Str-Qq-DL9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="4hK-G0-nrH"/>
+                <constraint firstAttribute="trailing" secondItem="5X8-0J-bV9" secondAttribute="trailing" constant="8" id="BaI-3r-LBL"/>
+                <constraint firstItem="JlA-Ej-NQl" firstAttribute="leading" secondItem="Str-Qq-DL9" secondAttribute="trailing" constant="8" id="J4k-wh-aSJ"/>
+                <constraint firstItem="3rV-Ej-Kn0" firstAttribute="leading" secondItem="HYq-Na-CQt" secondAttribute="trailing" constant="8" id="frV-x0-VqM"/>
+                <constraint firstItem="Str-Qq-DL9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="gQn-c9-H4V"/>
+                <constraint firstItem="HYq-Na-CQt" firstAttribute="leading" secondItem="JlA-Ej-NQl" secondAttribute="trailing" constant="8" id="hPs-UM-5E3"/>
+                <constraint firstItem="JlA-Ej-NQl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="lY5-ha-bgP"/>
+                <constraint firstItem="GVa-J3-RDV" firstAttribute="leading" secondItem="3rV-Ej-Kn0" secondAttribute="trailing" constant="8" id="rOk-r4-ndc"/>
+                <constraint firstItem="HYq-Na-CQt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="sCT-3a-noI"/>
+                <constraint firstItem="3rV-Ej-Kn0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="vHa-5F-KP8"/>
+                <constraint firstItem="GVa-J3-RDV" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="wcE-NT-PF7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="560" y="367"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="blowgun.png" width="70" height="70"/>
+        <image name="fire.png" width="70" height="70"/>
+        <image name="ninjastar.png" width="70" height="70"/>
+        <image name="smoke.png" width="70" height="70"/>
+        <image name="sword.png" width="70" height="70"/>
+    </resources>
+</document>

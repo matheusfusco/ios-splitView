@@ -9,10 +9,28 @@
 /* Begin PBXBuildFile section */
 		F9983AE71D76159300D6B293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983AE61D76159300D6B293 /* main.m */; };
 		F9983AEA1D76159300D6B293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983AE91D76159300D6B293 /* AppDelegate.m */; };
-		F9983AED1D76159300D6B293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983AEC1D76159300D6B293 /* ViewController.m */; };
 		F9983AF01D76159300D6B293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9983AEE1D76159300D6B293 /* Main.storyboard */; };
 		F9983AF21D76159300D6B293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9983AF11D76159300D6B293 /* Assets.xcassets */; };
 		F9983AF51D76159300D6B293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9983AF31D76159300D6B293 /* LaunchScreen.storyboard */; };
+		F9983AFE1D76175300D6B293 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983AFD1D76175300D6B293 /* LeftViewController.m */; };
+		F9983B011D7617C300D6B293 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B001D7617C300D6B293 /* RightViewController.m */; };
+		F9983B041D7618A100D6B293 /* Monster.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B031D7618A100D6B293 /* Monster.m */; };
+		F9983B121D7619B800D6B293 /* blowgun.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B071D7619B800D6B293 /* blowgun.png */; };
+		F9983B131D7619B800D6B293 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B081D7619B800D6B293 /* fire.png */; };
+		F9983B141D7619B800D6B293 /* meetcatbot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B091D7619B800D6B293 /* meetcatbot.png */; };
+		F9983B151D7619B800D6B293 /* meetdogbot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0A1D7619B800D6B293 /* meetdogbot.png */; };
+		F9983B161D7619B800D6B293 /* meetexplodebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0B1D7619B800D6B293 /* meetexplodebot.png */; };
+		F9983B171D7619B800D6B293 /* meetfirebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0C1D7619B800D6B293 /* meetfirebot.png */; };
+		F9983B181D7619B800D6B293 /* meeticebot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0D1D7619B800D6B293 /* meeticebot.png */; };
+		F9983B191D7619B800D6B293 /* meetminitomatobot.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0E1D7619B800D6B293 /* meetminitomatobot.png */; };
+		F9983B1A1D7619B800D6B293 /* ninjastar.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B0F1D7619B800D6B293 /* ninjastar.png */; };
+		F9983B1B1D7619B800D6B293 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B101D7619B800D6B293 /* smoke.png */; };
+		F9983B1C1D7619B800D6B293 /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = F9983B111D7619B800D6B293 /* sword.png */; };
+		F9983B1F1D77636700D6B293 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B1E1D77636700D6B293 /* ColorPickerViewController.m */; };
+		F9983B221D78D5BC00D6B293 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B211D78D5BC00D6B293 /* Weapon.m */; };
+		F9983B261D7DC4AF00D6B293 /* WeaponInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B241D7DC4AF00D6B293 /* WeaponInputViewController.m */; };
+		F9983B271D7DC4AF00D6B293 /* WeaponInputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9983B251D7DC4AF00D6B293 /* WeaponInputViewController.xib */; };
+		F9983B2A1D7DCA4300D6B293 /* WeaponSelectorImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F9983B291D7DCA4300D6B293 /* WeaponSelectorImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +38,36 @@
 		F9983AE61D76159300D6B293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9983AE81D76159300D6B293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F9983AE91D76159300D6B293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F9983AEB1D76159300D6B293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F9983AEC1D76159300D6B293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9983AEF1D76159300D6B293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9983AF11D76159300D6B293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9983AF41D76159300D6B293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9983AF61D76159300D6B293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9983AFC1D76175300D6B293 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeftViewController.h; path = ../LeftViewController.h; sourceTree = "<group>"; };
+		F9983AFD1D76175300D6B293 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeftViewController.m; path = ../LeftViewController.m; sourceTree = "<group>"; };
+		F9983AFF1D7617C300D6B293 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		F9983B001D7617C300D6B293 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		F9983B021D7618A100D6B293 /* Monster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monster.h; sourceTree = "<group>"; };
+		F9983B031D7618A100D6B293 /* Monster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monster.m; sourceTree = "<group>"; };
+		F9983B071D7619B800D6B293 /* blowgun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blowgun.png; sourceTree = "<group>"; };
+		F9983B081D7619B800D6B293 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		F9983B091D7619B800D6B293 /* meetcatbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetcatbot.png; sourceTree = "<group>"; };
+		F9983B0A1D7619B800D6B293 /* meetdogbot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetdogbot.png; sourceTree = "<group>"; };
+		F9983B0B1D7619B800D6B293 /* meetexplodebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetexplodebot.png; sourceTree = "<group>"; };
+		F9983B0C1D7619B800D6B293 /* meetfirebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetfirebot.png; sourceTree = "<group>"; };
+		F9983B0D1D7619B800D6B293 /* meeticebot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meeticebot.png; sourceTree = "<group>"; };
+		F9983B0E1D7619B800D6B293 /* meetminitomatobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meetminitomatobot.png; sourceTree = "<group>"; };
+		F9983B0F1D7619B800D6B293 /* ninjastar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninjastar.png; sourceTree = "<group>"; };
+		F9983B101D7619B800D6B293 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		F9983B111D7619B800D6B293 /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword.png; sourceTree = "<group>"; };
+		F9983B1D1D77636700D6B293 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		F9983B1E1D77636700D6B293 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		F9983B201D78D5BC00D6B293 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		F9983B211D78D5BC00D6B293 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		F9983B231D7DC4AF00D6B293 /* WeaponInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponInputViewController.h; sourceTree = "<group>"; };
+		F9983B241D7DC4AF00D6B293 /* WeaponInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponInputViewController.m; sourceTree = "<group>"; };
+		F9983B251D7DC4AF00D6B293 /* WeaponInputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeaponInputViewController.xib; sourceTree = "<group>"; };
+		F9983B281D7DCA4300D6B293 /* WeaponSelectorImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponSelectorImageView.h; sourceTree = "<group>"; };
+		F9983B291D7DCA4300D6B293 /* WeaponSelectorImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponSelectorImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +102,23 @@
 			children = (
 				F9983AE81D76159300D6B293 /* AppDelegate.h */,
 				F9983AE91D76159300D6B293 /* AppDelegate.m */,
-				F9983AEB1D76159300D6B293 /* ViewController.h */,
-				F9983AEC1D76159300D6B293 /* ViewController.m */,
+				F9983AFC1D76175300D6B293 /* LeftViewController.h */,
+				F9983AFD1D76175300D6B293 /* LeftViewController.m */,
+				F9983AFF1D7617C300D6B293 /* RightViewController.h */,
+				F9983B001D7617C300D6B293 /* RightViewController.m */,
+				F9983B1D1D77636700D6B293 /* ColorPickerViewController.h */,
+				F9983B1E1D77636700D6B293 /* ColorPickerViewController.m */,
+				F9983B231D7DC4AF00D6B293 /* WeaponInputViewController.h */,
+				F9983B241D7DC4AF00D6B293 /* WeaponInputViewController.m */,
+				F9983B251D7DC4AF00D6B293 /* WeaponInputViewController.xib */,
+				F9983B281D7DCA4300D6B293 /* WeaponSelectorImageView.h */,
+				F9983B291D7DCA4300D6B293 /* WeaponSelectorImageView.m */,
+				F9983B051D7618A400D6B293 /* Model */,
 				F9983AEE1D76159300D6B293 /* Main.storyboard */,
 				F9983AF11D76159300D6B293 /* Assets.xcassets */,
 				F9983AF31D76159300D6B293 /* LaunchScreen.storyboard */,
 				F9983AF61D76159300D6B293 /* Info.plist */,
+				F9983B061D7619B800D6B293 /* MonsterArt */,
 				F9983AE51D76159300D6B293 /* Supporting Files */,
 			);
 			path = SplitView;
@@ -77,6 +130,35 @@
 				F9983AE61D76159300D6B293 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9983B051D7618A400D6B293 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9983B021D7618A100D6B293 /* Monster.h */,
+				F9983B031D7618A100D6B293 /* Monster.m */,
+				F9983B201D78D5BC00D6B293 /* Weapon.h */,
+				F9983B211D78D5BC00D6B293 /* Weapon.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F9983B061D7619B800D6B293 /* MonsterArt */ = {
+			isa = PBXGroup;
+			children = (
+				F9983B071D7619B800D6B293 /* blowgun.png */,
+				F9983B081D7619B800D6B293 /* fire.png */,
+				F9983B091D7619B800D6B293 /* meetcatbot.png */,
+				F9983B0A1D7619B800D6B293 /* meetdogbot.png */,
+				F9983B0B1D7619B800D6B293 /* meetexplodebot.png */,
+				F9983B0C1D7619B800D6B293 /* meetfirebot.png */,
+				F9983B0D1D7619B800D6B293 /* meeticebot.png */,
+				F9983B0E1D7619B800D6B293 /* meetminitomatobot.png */,
+				F9983B0F1D7619B800D6B293 /* ninjastar.png */,
+				F9983B101D7619B800D6B293 /* smoke.png */,
+				F9983B111D7619B800D6B293 /* sword.png */,
+			);
+			path = MonsterArt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +218,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9983B121D7619B800D6B293 /* blowgun.png in Resources */,
+				F9983B131D7619B800D6B293 /* fire.png in Resources */,
+				F9983B181D7619B800D6B293 /* meeticebot.png in Resources */,
+				F9983B1C1D7619B800D6B293 /* sword.png in Resources */,
+				F9983B271D7DC4AF00D6B293 /* WeaponInputViewController.xib in Resources */,
 				F9983AF51D76159300D6B293 /* LaunchScreen.storyboard in Resources */,
+				F9983B171D7619B800D6B293 /* meetfirebot.png in Resources */,
 				F9983AF21D76159300D6B293 /* Assets.xcassets in Resources */,
+				F9983B151D7619B800D6B293 /* meetdogbot.png in Resources */,
 				F9983AF01D76159300D6B293 /* Main.storyboard in Resources */,
+				F9983B161D7619B800D6B293 /* meetexplodebot.png in Resources */,
+				F9983B1B1D7619B800D6B293 /* smoke.png in Resources */,
+				F9983B191D7619B800D6B293 /* meetminitomatobot.png in Resources */,
+				F9983B1A1D7619B800D6B293 /* ninjastar.png in Resources */,
+				F9983B141D7619B800D6B293 /* meetcatbot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9983AED1D76159300D6B293 /* ViewController.m in Sources */,
+				F9983B221D78D5BC00D6B293 /* Weapon.m in Sources */,
+				F9983AFE1D76175300D6B293 /* LeftViewController.m in Sources */,
+				F9983B041D7618A100D6B293 /* Monster.m in Sources */,
+				F9983B2A1D7DCA4300D6B293 /* WeaponSelectorImageView.m in Sources */,
+				F9983B011D7617C300D6B293 /* RightViewController.m in Sources */,
 				F9983AEA1D76159300D6B293 /* AppDelegate.m in Sources */,
+				F9983B1F1D77636700D6B293 /* ColorPickerViewController.m in Sources */,
 				F9983AE71D76159300D6B293 /* main.m in Sources */,
+				F9983B261D7DC4AF00D6B293 /* WeaponInputViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +366,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SplitView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusFusco.SplitView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -277,7 +379,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SplitView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MatheusFusco.SplitView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
